@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primetra web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Script se obtiene de "mis kits" -->
+    <script
+      src="https://kit.fontawesome.com/a9e1c71d9d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script para linkear el js-->
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <!--- Ya que seleccionamos el ícono que queremos viene el código para insertarlo -->
+        <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+              <a href="Proyectos">Conócenos</a>
+            </li>
+            <li><a href="Proyectos">Proyectos</a></li>
+            <li><a href="./formulario/formulario.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="seccion_principal">
+        <section class="seccion-1">
+          <div class="acerca-de">
+            <h2>Bienvenidxs</h2>
+            <p>Hola empezaré a contarles sobre mí</p>
+          </div>
+          <div class="acerca-imagen">
+            <img src="img/foto_naye.png" alt="Imagen portada" />
+          </div>
+        </section>
+        <section class="seccion-2">
+          <img
+            src="img/trabajo.jpg"
+            alt="Foto de carrusel"
+            class="img_trabajo"
+          />
+        </section>
+
+        <section class="3 servicios">
+          <h2>Servicios</h2>
+          <div class="colum_total_servicios">
+            <div class="div_serv" id="izq">
+              <div class="image_serv">
+                <img src="img/R_LADIES_LOGO.jpeg" alt="" class="images_serv" />
+              </div>
+              <div class="text_serv">
+                <h3>Co-oeganizadora R-Ladies GDL</h3>
+                <p>
+                  R-Ladies es un grupo global enfocado en grupos de difusión del
+                  lenguaje de programación R.
+                </p>
+                <a href="">leer más</a>
+              </div>
+            </div>
+            <div class="div_serv" id="centro"></div>
+            <div class="div_serv" id="derecha"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="footer">
+        <h2>Nayeli Solís</h2>
+      </footer>
+
+      <p id="frase"></p>
+    </div>
+  </body>
+</html>

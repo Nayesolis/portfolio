@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ol, ul{
+    /*para quitar el punto que aparece en las listas*/
+    list-style: none;
+}
+a{
+    /*sirve para quitar lo subrayado de los links*/
+    text-decoration: none;
+}
+
+/*Contiene el ícono y el menú*/
+header{
+background-color: rgba(181, 97, 255, 0.345);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+header a i{
+    color: rgb(238, 235, 239);
+    font-size: 35px;
+    padding: 0.5em;
+}
+
+header nav ul{
+    display: flex;
+    /* qué es gap*/
+    gap: 1em;
+}
+header nav ul li{
+    color: rgb(69, 24, 108);
+}
+.img_trabajo{
+   height: 500px;
+}
+
+.columnas{ /*le damos espacio entre columnas horizontal*/
+    display: flex;
+    gap: 4em;
+}
+.images_serv{
+    height: 200px;
+}
